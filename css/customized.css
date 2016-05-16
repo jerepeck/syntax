@@ -1,0 +1,584 @@
+.hidden {
+	visibility: hidden;
+}
+
+
+body {
+	font-family: 'Exo 2', sans-serif;
+}
+
+.nav-custom {
+	background-color:  #f49303;
+	padding: 20px 0;
+	margin-bottom: 0px;
+}
+
+.navbar-header a {
+	font-size: 1.5em;
+}
+
+.nav-custom .container a, .nav-custom .navbar-nav li a {
+	color: #fff;
+}
+
+.nav-custom .container a:hover, .nav-custom .navbar-nav li a:hover {
+	color: #188abc;
+}
+
+#logout {
+	border: none;
+	background-color: transparent;
+	color: #fff;
+	vertical-align: bottom;
+}
+
+.logo {
+	width: 50px;
+	margin-right: 10px;
+	float: left;
+	margin-left: 10px;
+}
+
+.footer-logo {
+	width: 50px;
+}
+
+#logout, #join {
+	text-transform: none;
+}
+
+.hero-wrapper {
+	position: relative;
+	margin-top: -5px;
+}
+
+.hero-img {
+	width: 100%;
+	min-height: 300px;
+}
+
+.hero-overlay {
+	position: absolute;
+}
+
+.search-bar {
+	position: relative;
+}
+
+.search-bar input[placeholder] {
+	font-style: italic;
+}
+
+.searchbutton {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-radius: 0 4px 4px 0;
+ 	padding: .3em .7em;
+ 	font-size: 1.24em;
+ 	background-color: #188abc;	
+ 	color:  #fff;
+ 	letter-spacing: 1px;
+ 	font-weight: 300;
+}
+
+.searchbutton:hover {
+	cursor: pointer;
+	opacity: .7;
+}
+
+.ui-autocomplete {
+	list-style: none;
+	font-size: 1.2em;
+	background-color: #404040;
+	opacity: .9;
+	width: 5%;
+	border-radius: 5px;
+}
+
+.ui-autocomplete a {
+	color: #fff
+}
+
+.ui-autocomplete a:hover {
+	color:#f49303;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+.banner {
+	background-color: #808080;
+	font-size: 2.2em;
+	text-align: center;
+	height: 66px;
+	color: #fff;
+	padding: 10px 0 0;
+	font-weight: 100;
+}
+
+.process-img {
+	width: 102px;
+	margin: 0 auto;
+}
+
+footer .footer-above-custom {
+	background-color: #f49303;
+}
+
+ .nav-footer-custom {
+ 	font-size: 1.5em;
+ 	padding: 0 20px ;
+ }
+
+ footer .nav-footer-elements a {
+  	color: #188abc;
+  	font-weight: bold;
+ }
+
+ footer .nav-footer-elements a:hover {
+ 	color:#fff;
+ 	text-decoration: none;
+ }
+
+ .social-buttons {
+ 	padding: 10px;
+ }
+
+ .social-buttons a:hover {
+ 	color: #188abc;
+ 	background-color: transparent;
+ }
+
+ .process {
+ 	text-align: center;
+ 	width: 70%;
+ 	margin: 0 auto;
+ 	padding-top: 5%;
+ 	color: #188abc;
+ }
+
+ .process h3 {
+ 	padding-bottom: 10%;
+ 	border-bottom: 3px solid #188abc;
+ }
+
+ .process p {
+ 	padding: 5% 0 0;
+ }
+
+ .hero-overlay {
+	width:660px;
+ 	top: 80px;
+ 	left: 12%;
+ }
+
+ .search-field {
+ 	width: 100%;
+ 	font-style: italic;
+ 	border-radius: 5px;
+ 	border: none;
+ 	padding: .3em .3em .3em 1em;
+ 	font-size: 1.2em;
+ }
+
+.hero-overlay p {
+	text-align: center;
+	color:  #188abc;
+	font-size: 2rem;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.hero-overlay a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #188abc;
+	letter-spacing: -1px;
+}
+
+.browse {
+	text-align: center;
+	letter-spacing: 1px;
+	padding: 3px 0 10px;
+}
+
+.browse a:hover {
+	color: #f49303;
+}
+
+.branding {
+	/*display: inline-block;*/
+}
+
+.overlay-logo {
+	width: 80px;
+	margin: 0 1% 0 0;
+	clear: right;
+}
+
+.tagline {
+	color: #f49303;
+	font-size: 3.5em;
+	letter-spacing: -1px;
+	float: right;
+	text-align: right;
+}
+
+
+
+/********************************************
+CONTENT SECTION
+********************************************/
+
+.page-content-2 {
+	padding-top: 0;
+
+}
+
+.section-heading {
+	text-align: center;
+	margin: 0 0 40px;
+	color: #188abc;
+	font-weight: 300;
+	text-transform: none;
+}
+
+.blurb {
+	text-transform: none;
+	text-align: center;
+	padding: 0 0 20px;
+	color: #404040;
+}
+
+.salespitch {
+	text-transform: none;
+	font-weight: 300;
+	color: #404040;
+}
+
+.highlight {
+	color: #188abc;
+	font-weight: normal;
+}
+
+.button-wrapper {
+	text-align: center;
+	padding: 50px 0;
+}
+
+.coursebutton {
+	font-size: 1.5em;
+	border-radius: 5px;
+	background-color: #188abc;
+	color: #fff;
+	font-weight: 300;
+	letter-spacing: 1px;
+	border: none;
+	padding: .3em .6em;
+}
+
+.coursebutton:hover {
+	opacity: .7;
+}
+
+.video-caption {
+	margin-left: 25px;
+	font-style: italic;
+	color: #535253;
+	padding-bottom: 10px;
+}
+
+
+
+/********************************************
+VIDEO
+********************************************/
+
+.video-wrapper {
+	background: #dfdfdf;
+	border-radius: 5px;
+}
+
+img {
+	width: 100%;
+}
+
+.video-container {
+	position: relative;
+	padding-top: 10px;
+}
+
+.video-container:hover {
+	cursor: pointer;
+}
+
+ .sm-video-container {
+ 	width: 90%;
+ 	margin: 0 auto;
+ 	font-size: .8em;
+ }
+
+.video-controls {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 5px;
+	opacity: 0;
+	-webkit-transition: opacity .3s;
+	-moz-transition: opacity .3s;
+	-o-transition: opacity .3s;
+	-ms-transition: opacity .3s;
+	transition: opacity .3s;
+	background-image: linear-gradient(bottom, rgb(3,113,168) 13%, rgb(0,136,204) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(3,113,168) 13%, rgb(0,136,204) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(3,113,168) 13%, rgb(0,136,204) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(3,113,168) 13%, rgb(0,136,204) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(3,113,168) 13%, rgb(0,136,204) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.13, rgb(3,113,168)),
+		color-stop(1, rgb(0,136,204))
+	);
+}
+
+.video-container:hover .video-controls {
+	opacity: .9;
+}
+
+button {
+	background: rgba(0,0,0,.5);
+	border: 0;
+	color: #EEE;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.seek-bar {
+	width: 35% !important;
+}
+
+.volume-bar {
+	width: 10% !important;
+}
+
+.sm-seek-bar {
+	width: 1% !important;
+}
+
+.sm-volume-bar {
+	width: 1% !important;
+}
+
+input[type=range] {
+	display: inline-block !important; 
+}
+
+
+
+/********************************************
+SECTION:  JOIN
+********************************************/
+
+.panel-login>.custom-panel-heading a {
+	color: #188abc !important;
+}
+
+div .btn-login {
+	background-color: #f49303;
+	border-color: #f49309;
+}
+
+div .btn-login:hover {
+	background-color: #f49303;
+	border-color: #f49309;
+	opacity: .7;
+}
+
+.join-brand {
+	text-align: center;
+	padding: 0 0 20px;
+}
+
+.join-logo {
+	width: 60px;
+	margin: 0 10px 0 0;
+}
+
+.join-brand-name {
+	font-size: 2.2em;
+	color: #f48303;
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.join-brand a:hover {
+	text-decoration: none;
+	color: #188abc;
+}
+
+.brand {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.brand a {
+	text-align: center;
+	font-size: 1.7em;
+}
+
+
+
+/********************************************
+SECTION:  COURSES
+********************************************/
+
+.courses-content {
+	padding: 60px 0;
+}
+
+.course-container {
+	padding: 60px 0;
+}
+
+.col-centered {
+	float: none;
+	margin: 0 auto;
+}
+
+.container-dark {
+	background-color: #e2e2e2;
+}
+
+.courses-video {
+	border: 1px solid #727272;
+}
+
+.video-course-caption {
+	font-size: 2em;
+	color: #535253;
+	text-align: center;
+	padding-top: 20px;	
+}
+
+.courses-content a:hover {
+	text-decoration: none;
+}
+
+
+
+
+
+
+/********************************************
+RESPONSIVE CSS
+********************************************/
+
+@media screen and (max-width: 1199px) {
+	.sm-video-container  .video-controls {
+		font-size: .7em;
+	}
+}
+
+
+
+	/***************************************
+	991px
+	***************************************/
+
+@media screen and (max-width: 991px) {
+	.video-caption {
+		font-size: 1.2em;
+	}
+}
+
+
+
+	/***************************************
+	767px
+	***************************************/
+
+@media screen and (max-width: 767px) {
+	.banner {
+		font-size: 1.2em;
+		height: 40px;
+		padding: 5px 0;
+	}
+
+	.hero-overlay {
+		width: 380px;
+	}
+
+	.search-field {
+		font-size: 1em;
+	}
+
+	.overlay-logo {
+		width: 40px;
+	}
+
+	.tagline {
+		font-size: 1.8em;
+	}
+
+	 .process p {
+	 	padding: 5% 0 30%;
+	 }
+
+}
+
+
+
+	/***************************************
+	480px
+	***************************************/
+
+@media screen and (max-width: 480px) {
+	.hero-overlay {
+		width: 320px;
+	}
+
+	.search-field {
+		color:#fff;
+	}
+
+	.tagline {
+		font-size: 1.5em;
+	}	
+
+	.section-heading {
+		font-size: 2.3em;
+	}
+
+	.blurb {
+		font-size: 1.7em;
+	}
+
+	.salespitch {
+		font-size: 1.5em;
+	}
+
+	.courses-section-row {
+		margin-top: -30px;
+	}
+
+	.video-wrapper {
+		background: none;
+	}
+
+	.video-caption {
+		font-size: 1.3em;
+		padding-bottom: 20px;
+	}
+}

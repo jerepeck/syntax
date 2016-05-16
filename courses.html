@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Syntax - Learn to Code. Free</title>
+
+        <!-- template CSS -->
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+		<!-- Bootstrap CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Awesome Font CSS -->
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+        <!-- custom CSS -->
+        <link href="css/customized.css" rel="stylesheet">
+        <!-- add jQuery -->
+        <script src="js/jquery-2.1.4.min.js"></script>
+		<!-- Bootstrap JS  -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- add jQuery UI -->
+        <script type="text/javascript" src="js/jquery-ui.js"></script>        
+
+        <!-- add sign up JS -->
+        <script src="js/sign.js"></script>
+        <!-- add Firebase -->
+        <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+    
+	</head>
+	<body>
+		<!-- Navigation -->
+		<nav class="navbar navbar-default nav-bar-fixed-top nav-custom" role="navigation">
+		  <div class="container ">
+            <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		      </button>
+		      <img src="assets/images/syntax-logo.png" class="logo">
+		      <a class="navbar-brand" href="index.html">Syntax</a>
+		    </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav">
+		        <li>
+		        	<a href="#">About Us</a>
+	        	</li>
+		        <li>
+		          <a href="courses.html">Courses</a>
+		        </li>
+		        <li>
+		          <a href="#">Blog</a>
+		        </li>		        
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a id="logout" href="#">Log Out</a>
+                </li>
+		        <li>
+		        	<a href="join.html">
+		        		<button id="join">Join for Free</button>
+	        		</a>
+        		</li>
+		      </ul>
+		    </div>
+            <!-- /.navbar-collapse -->
+		  </div>
+        <!-- /.container -->
+		</nav>
+
+
+
+        <section class="courses-content">
+	        <a name="app">
+            <div class="container course-container">
+                <h2 class="section-heading">Course Catalog </h2>
+                <div class="row ">
+                    <div class="col-md-8 col-centered">
+                        <div class="video-container ">
+                        <p class="video-course-caption">Make your first iOS app</p>
+                            <img class="faker courses-video" src="assets/images/iOS-app.png" >
+                              <!-- Video -->
+                              </video>
+                              <!-- Video Controls -->
+                              <div class="video-controls">
+                                <button type="button" class="play-pause">Play</button>
+                                <input type="range" class="seek-bar" value="0">
+                                <button type="button" class="mute">Mute</button>
+                                <input type="range" class="volume-bar" min="0" max="1" step="0.1" value="1">
+                                <button type="button" class="full-screen">Full-Screen</button>
+                            </div>
+                        </div>
+                    </div>                                       
+                    <!-- .col-md-8 -->
+                </div>
+                <!-- row -->
+            </div>
+            <!-- .container -->
+            </a>
+
+            <a name="HTML">
+            <div class="container-dark">
+	            <div class="container  course-container">
+	                <div class="row ">
+	                    <div class="col-md-8 col-centered">
+                            <div class="video-container ">
+	                            <p class="video-course-caption">Start with HTML</p>
+                                <img class="faker courses-video" src="assets/images/hello-world.png" >
+                                  <!-- Video -->
+                                  </video>
+                                  <!-- Video Controls -->
+                                  <div class="video-controls">
+                                    <button type="button" class="play-pause">Play</button>
+                                    <input type="range" class="seek-bar" value="0">
+                                    <button type="button" class="mute">Mute</button>
+                                    <input type="range" class="volume-bar" min="0" max="1" step="0.1" value="1">
+                                    <button type="button" class="full-screen">Full-Screen</button>
+                                </div>
+	                        </div> 
+	                        <!-- .video-container -->
+	                    </div>                                       
+	                    <!-- .col-md-8 -->
+	                </div>
+	                <!-- row -->
+	            </div>
+                <!-- .container course-container -->
+            </div>          
+            <!-- .container-dark -->
+            </a>
+
+            <a name="C">
+            <div class="container course-container">
+                <div class="row ">
+                    <div class="col-md-8 col-centered">
+                        <div class="video-container ">
+                        <p class="video-course-caption">An introduction to C</p>
+                            <img class="faker courses-video" src="assets/images/passing-arguments.png" >
+                              <!-- Video -->
+                              </video>
+                              <!-- Video Controls -->
+                              <div class="video-controls">
+                                <button type="button" class="play-pause">Play</button>
+                                <input type="range" class="seek-bar" value="0">
+                                <button type="button" class="mute">Mute</button>
+                                <input type="range" class="volume-bar" min="0" max="1" step="0.1" value="1">
+                                <button type="button" class="full-screen">Full-Screen</button>
+                            </div>
+                        </div>
+                        <!-- .video-controls -->
+                    </div>                                       
+                    <!-- .col-md-8 -->
+                    </div>
+                <!-- row -->
+            </div>
+            <!-- .container -->
+            </a>
+            <a name="cs">
+            <div class="container-dark">
+	            <div class="container  course-container">
+	                <div class="row ">
+	                    <div class="col-md-8 col-centered">
+	                            <div class="video-container ">
+	                            <p class="video-course-caption">Computer Science 101</p>
+	                                <img class="faker courses-video" src="assets/images/web-design.png" >
+	                                  <!-- Video -->
+	                                  </video>
+	                                  <!-- Video Controls -->
+	                                  <div class="video-controls">
+	                                    <button type="button" class="play-pause">Play</button>
+	                                    <input type="range" class="seek-bar" value="0">
+	                                    <button type="button" class="mute">Mute</button>
+	                                    <input type="range" class="volume-bar" min="0" max="1" step="0.1" value="1">
+	                                    <button type="button" class="full-screen">Full-Screen</button>
+	                                </div>
+	                            </div>
+	                        </div> 
+	                        <!-- .video-container -->
+	                    </div>                                       
+	                    <!-- .col-md-8 -->
+	                </div>
+	                <!-- row -->
+                </div>
+                <!-- .container course-container -->
+            </div>
+            <!-- .container-dark -->
+            </a>
+            <a name="CSS">
+            <div class="container course-container">
+                <!-- row -->
+                <div class="row ">
+                    <div class="col-md-8 col-centered">
+                            <div class="video-container ">
+                            <p class="video-course-caption">Learn the Basics of CSS</p>
+                                <img class="faker courses-video" src="assets/images/iOS-app.png" >
+                                  <!-- Video -->
+                                  </video>
+                                  <!-- Video Controls -->
+                                  <div class="video-controls">
+                                    <button type="button" class="play-pause">Play</button>
+                                    <input type="range" class="seek-bar" value="0">
+                                    <button type="button" class="mute">Mute</button>
+                                    <input type="range" class="volume-bar" min="0" max="1" step="0.1" value="1">
+                                    <button type="button" class="full-screen">Full-Screen</button>
+                                </div>
+                            </div>
+                        </div> 
+                        <!-- . -->
+                    </div>                                       
+                    <!-- .col-md-8 -->
+                </div>
+                <!-- row -->
+            </div>
+            </a>
+            <!-- .container .container-dark -->
+            <a name="webdesign">
+            <div class="container-dark">
+	            <div class="container  course-container">
+	                <div class="row ">
+	                    <div class="col-md-8 col-centered">
+	                            <div class="video-container ">
+	                            <p class="video-course-caption">Get Started with Web Design</p>
+	                                <img class="faker courses-video" src="assets/images/hello-world.png" >
+	                                  <!-- Video -->
+	                                  </video>
+	                                  <!-- Video Controls -->
+	                                  <div class="video-controls">
+	                                    <button type="button" class="play-pause">Play</button>
+	                                    <input type="range" class="seek-bar" value="0">
+	                                    <button type="button" class="mute">Mute</button>
+	                                    <input type="range" class="volume-bar" min="0" max="1" step="0.1" value="1">
+	                                    <button type="button" class="full-screen">Full-Screen</button>
+	                                </div>
+	                            </div>
+	                        </div> 
+	                        <!-- .video-container -->
+	                    </div>                                       
+	                    <!-- .col-md-8 -->
+	                </div>
+	                <!-- row -->
+                <!-- .container course-container -->
+            </div>
+            <!-- .container-dark -->
+            </a>
+            <a name="swift">
+            <div class="container  course-container">
+                <!-- row -->
+                <div class="row">
+                    <div class="col-md-8 col-centered">
+                        <div class="video-container ">
+                        <p class="video-course-caption">Programming with Swift</p>
+                            <img class="faker courses-video" src="assets/images/passing-arguments.png" >
+                              <!-- Video -->
+                              </video>
+                              <!-- Video Controls -->
+                              <div class="video-controls">
+                                <button type="button" class="play-pause">Play</button>
+                                <input type="range" class="seek-bar" value="0">
+                                <button type="button" class="mute">Mute</button>
+                                <input type="range" class="volume-bar" min="0" max="1" step="0.1" value="1">
+                                <button type="button" class="full-screen">Full-Screen</button>
+                            </div>
+                        </div>
+                    </div>                                       
+                    <!-- .col-md-8 -->
+                </div>
+                <!-- .row -->
+            </div>
+            <!-- .container  -->
+            </a>
+            <a name="javascript">
+            <div class="container-dark">
+	            <div class="container  course-container">
+	                <div class="row ">
+	                    <div class="col-md-8 col-centered">
+	                            <div class="video-container ">
+	                            <p class="video-course-caption">JavaScript Basics</p>
+	                                <img class="faker courses-video" src="assets/images/web-design.png" >
+	                                  <!-- Video -->
+	                                  </video>
+	                                  <!-- Video Controls -->
+	                                  <div class="video-controls">
+	                                    <button type="button" class="play-pause">Play</button>
+	                                    <input type="range" class="seek-bar" value="0">
+	                                    <button type="button" class="mute">Mute</button>
+	                                    <input type="range" class="volume-bar" min="0" max="1" step="0.1" value="1">
+	                                    <button type="button" class="full-screen">Full-Screen</button>
+	                                </div>
+	                            </div>
+	                        </div> 
+	                        <!-- .video-container -->
+	                    </div>                                       
+	                    <!-- .col-md-8 -->
+	                </div>
+	                <!-- row -->
+                <!-- .container course-container -->
+            </div>
+            <!-- .container-dark -->
+            </a>
+            <a name="java">
+            <div class="container  course-container">
+                <!-- row -->
+                <div class="row ">
+                    <div class="col-md-8 col-centered">
+                        <div class="video-container ">
+                        <p class="video-course-caption">Learn Java Code</p>
+                            <img class="faker courses-video" src="assets/images/passing-arguments.png" >
+                              <!-- Video -->
+                              </video>
+                              <!-- Video Controls -->
+                              <div class="video-controls">
+                                <button type="button" class="play-pause">Play</button>
+                                <input type="range" class="seek-bar" value="0">
+                                <button type="button" class="mute">Mute</button>
+                                <input type="range" class="volume-bar" min="0" max="1" step="0.1" value="1">
+                                <button type="button" class="full-screen">Full-Screen</button>
+                            </div>
+                        </div>
+                    </div>                                       
+                    <!-- .col-md-8 -->
+                </div>
+                <!-- .row -->
+            </div>
+            <!-- .container  -->            
+	        </a>
+        </section>
+
+
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above footer-above-custom">
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    </div> -->
+                    <div class="footer-col col-md-12">
+                    <img class="footer-logo" src="assets/images/syntax-logo.png">
+                        <h3>Copyright &copy; 2016 Syntax, Inc.</h3>
+                        <span class="nav-footer-elements">
+                            <a class="nav-footer nav-footer-custom" href="">About Us</a>
+                            <span> • </span>
+                            <a class="nav-footer nav-footer-custom" href="">Syn +</a>
+                            <span> • </span>
+                            <a class="nav-footer nav-footer-custom" href="">Blog</a>
+                            <span> • </span>
+                            <a class="nav-footer nav-footer-custom" href="">Careers</a>
+                            <span> • </span>
+                            <a class="nav-footer nav-footer-custom" href="">Contact</a>
+                        </span>
+                        <ul class="list-inline social-buttons">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>  
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube"></i></a>
+                            </li>                                                  
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                            </li>                            
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- <div class="footer-col col-md-4">
+                        <h3>About Freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+	</body>
+</html>

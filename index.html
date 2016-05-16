@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Syntax - Learn to Code. Free</title>
+
+        <link href='https://fonts.googleapis.com/css?family=Exo+2:400,300' rel='stylesheet' type='text/css'>
+        <!-- template CSS -->
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+		<!-- Bootstrap CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Awesome Font CSS -->
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+        <!-- custom CSS -->
+        <link href="css/customized.css" rel="stylesheet">
+        <!-- add jQuery -->
+        <script src="js/jquery-2.1.4.min.js"></script>
+		<!-- Bootstrap JS  -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- add jQuery UI -->
+        <script type="text/javascript" src="js/jquery-ui.js"></script>        
+
+        <!-- add sign up JS -->
+        <script src="js/sign.js"></script>
+        <!-- add autocomplete JS -->
+        <script src="js/autocomplete.js"></script>
+        <!-- add Firebase -->
+        <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+    
+	</head>
+	<body>
+		<!-- Navigation -->
+		<nav class="navbar navbar-default nav-bar-fixed-top nav-custom" role="navigation">
+		  <div class="container ">
+            <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		      </button>
+		      <img src="assets/images/syntax-logo.png" class="logo">
+		      <a class="navbar-brand" href="index.html">Syntax</a>
+		    </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav">
+		        <li>
+		        	<a href="#">About Us</a>
+	        	</li>
+		        <li>
+		          <a href="courses.html">Courses</a>
+		        </li>
+		        <li>
+		          <a href="#">Blog</a>
+		        </li>		        
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li>
+		        	<a id="join" href="join.html">Sign In</a>
+        		</li>
+                <li>
+                    <a id="logout" href="#">Log Out</a>
+                </li>                
+                <li id="greeting">
+                    Welcome, <br><script>document.write( localStorage.getItem("Greeting") );</script>
+                </li>
+		      </ul>
+		    </div>
+            <!-- /.navbar-collapse -->
+		  </div>
+        <!-- /.container -->
+		</nav>
+
+		<div class="hero-wrapper">
+			<div class="hero-overlay container">
+                <div class="search-bar">
+    				<input type="text" class="form-control" id="autocompleteme"  placeholder="Search our catalog..." aria-describedby="basic-addon2"></input>
+                    <button class="searchbutton">Search</button>
+                </div>
+                <div class="browse">
+    				<a href="courses.html">Browse our catalog</a>
+                </div>
+				<div class="branding">
+					<span><img class="overlay-logo" src="assets/images/syntax-logo.png"></span>
+					<span class="tagline">The Future of Learning</span>
+				</div>
+			</div>		
+			<img class="hero-img img-responsive" src="assets/images/hero2.jpg">
+		</div>
+        <!-- .hero-wrapper -->
+        <div class="row banner">A learning platform for Android, iOS, and C</div>
+
+        <section class="page-content-1">
+            <div class="container">
+                <h2 class="section-heading">Simple, Friendly, and Effective  </h2>
+                <div class="row section-row">
+                    <div class="col-sm-6">
+                        <h3 class="blurb">Get started on your first lesson now!</h3>
+                        <p class="salespitch">Start learning to code, not learning how to user Syntax.  Our platform is designed to make learning how to code <span class="highlight">simple, friendly, and effective.</span></p>
+                        <div class="button-wrapper">
+                            <a href="courses.html">
+                                <button class="coursebutton">See our catalog</button>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- .col-sm-6 -->
+                    <div class="col-sm-6 video-wrapper">
+                        <div class="video-container">
+                            <img class="faker" src="assets/images/hello-world.png" >
+                              <!-- Video -->
+                              </video>
+                              <!-- Video Controls -->
+                              <div class="video-controls">
+                                <button type="button" class="play-pause">Play</button>
+                                <input type="range" class="seek-bar" value="0">
+                                <button type="button" class="mute">Mute</button>
+                                <input type="range" class="volume-bar" min="0" max="1" step="0.1" value="1">
+                                <button type="button" class="full-screen">Full-Screen</button>
+                            </div>
+                        </div>
+                        <p class="video-caption">Lesson #1: Hello World!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-content-2">
+            <div class="container">
+                <h2 class="section-heading">Popular Courses </h2>
+                <div class="row courses-section-row">
+                    <div class="col-sm-4">
+                        <div class="video-wrapper">
+                            <div class="video-container sm-video-container">
+                                <img class="faker" src="assets/images/iOS-app.png" >
+                                  <!-- Video -->
+                                  </video>
+                                  <!-- Video Controls -->
+                                  <div class="video-controls">
+                                    <button type="button" class="play-pause">Play</button>
+                                    <input type="range" class="seek-bar" value="0">
+                                    <button type="button" class="mute">Mute</button>
+                                    <input type="range" class="volume-bar" min="0" max="1" step="0.1" value="1">
+                                    <button type="button" class="full-screen">Full-Screen</button>
+                                </div>
+                            </div>
+                            <p class="video-caption">Make your first iOS app</p>
+                        </div> 
+                        <!-- .video-wrapper -->
+                    </div>                                       
+                    <!-- .col-sm-4 -->
+                    <div class="col-sm-4">
+                        <div class="video-wrapper">
+                            <div class="video-container sm-video-container">
+                                <img class="faker" src="assets/images/web-design.png" >
+                                  <!-- Video -->
+                                  </video>
+                                  <!-- Video Controls -->
+                                  <div class="video-controls">
+                                    <button type="button" class="play-pause">Play</button>
+                                    <input type="range" class="seek-bar" value="0">
+                                    <button type="button" class="mute">Mute</button>
+                                    <input type="range" class="volume-bar" min="0" max="1" step="0.1" value="1">
+                                    <button type="button" class="full-screen">Full-Screen</button>
+                                </div>
+                            </div>
+                            <p class="video-caption">HTML + CSS + JS</p>
+                        </div> 
+                        <!-- .video-wrapper -->
+                    </div>                                       
+                    <!-- .col-sm-4 -->
+                    <div class="col-sm-4">
+                        <div class="video-wrapper">
+                            <div class="video-container sm-video-container">
+                                <img class="faker" src="assets/images/passing-arguments.png" >
+                                  <!-- Video -->
+                                  </video>
+                                  <!-- Video Controls -->
+                                  <div class="video-controls">
+                                    <button type="button" class="play-pause">Play</button>
+                                    <input type="range" class="seek-bar" value="0">
+                                    <button type="button" class="mute">Mute</button>
+                                    <input type="range" class="volume-bar" min="0" max="1" step="0.1" value="1">
+                                    <button type="button" class="full-screen">Full-Screen</button>
+                                </div>
+                            </div>
+                            <p class="video-caption">Passing agruments in C</p>
+                        </div> 
+                        <!-- .video-wrapper -->
+                    </div>                                       
+                    <!-- .col-sm-4 -->
+                </div>
+            </div>
+        </section>
+
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above footer-above-custom">
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    </div> -->
+                    <div class="footer-col col-md-12">
+                    <img class="footer-logo" src="assets/images/syntax-logo.png">
+                        <h3>Copyright &copy; 2016 Syntax, Inc.</h3>
+                        <span class="nav-footer-elements">
+                            <a class="nav-footer nav-footer-custom" href="">About Us</a>
+                            <span> • </span>
+                            <a class="nav-footer nav-footer-custom" href="">Courses</a>
+                            <span> • </span>
+                            <a class="nav-footer nav-footer-custom" href="">Blog</a>
+                            <span> • </span>
+                            <a class="nav-footer nav-footer-custom" href="">Careers</a>
+                            <span> • </span>
+                            <a class="nav-footer nav-footer-custom" href="">Contact</a>
+                        </span>
+                        <ul class="list-inline social-buttons">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>  
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube"></i></a>
+                            </li>                                                  
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                            </li>                            
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- <div class="footer-col col-md-4">
+                        <h3>About Freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+	</body>
+</html>
